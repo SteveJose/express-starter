@@ -90,6 +90,10 @@ async function editTodo(request, response) {
   });
 }
 
+async function deleteTodo(req,res){
+  
+}
+
 module.exports = {
   getTodo,
   getById,
